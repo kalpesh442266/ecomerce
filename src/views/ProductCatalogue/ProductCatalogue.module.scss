@@ -1,0 +1,8 @@
+@import "../../styles/variables";
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 14px;
+    row-gap: 14px;
+}

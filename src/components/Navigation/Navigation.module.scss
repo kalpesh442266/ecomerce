@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+
+.container {
+    height: $navbar-height-lg;
+    background-color: $light;
+
+    position: sticky;
+    max-width: $max-width;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.iconTextWrapper {
+    cursor: pointer
+}
+
+.icon {
+    text-decoration: none;
+    color: $primary-50;
+}
+
+.cartIconWrapper{
+    cursor: pointer;
+}
+.cartIcon {
+    position: relative;
+}
+
+.cartLabel {
+    position: absolute;
+    background-color: $primary-50;
+    border-radius: 50%;
+    color: $light;
+    min-width: 15px;
+    left: -10px;
+    top: -10px;
+    text-align: center;
+}

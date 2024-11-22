@@ -1,0 +1,101 @@
+@import "../../styles/variables";
+
+@each $margin in $custom-margins {
+    .m-#{$margin} {
+        margin: $margin * 1px;
+    }
+
+    .p-#{$margin} {
+        padding: $margin * 1px;
+    }
+}
+
+@each $margin in $custom-margins {
+    .ml-#{$margin} {
+        margin-left: $margin * 1px;
+    }
+
+    .pl-#{$margin} {
+        padding-left: $margin * 1px;
+    }
+}
+
+@each $margin in $custom-margins {
+    .mr-#{$margin} {
+        margin-right: $margin * 1px;
+    }
+
+    .pr-#{$margin} {
+        padding-right: $margin * 1px;
+    }
+}
+
+@each $margin in $custom-margins {
+    .mt-#{$margin} {
+        margin-top: $margin * 1px;
+    }
+
+    .pt-#{$margin} {
+        padding-top: $margin * 1px;
+    }
+}
+
+@each $margin in $custom-margins {
+    .mb-#{$margin} {
+        margin-bottom: $margin * 1px;
+    }
+
+    .pb-#{$margin} {
+        padding-bottom: $margin * 1px;
+    }
+}
+
+@for $i from 1 to $max-margin {
+    .m-#{$i} {
+        margin: $i * 1px;
+    }
+
+    .p-#{$i} {
+        padding: $i * 1px;
+    }
+}
+
+@for $i from 1 to $max-margin {
+    .mt-#{$i} {
+        margin-top: $i * 1px;
+    }
+
+    .pt-#{$i} {
+        padding-top: $i * 1px;
+    }
+}
+
+@for $i from 1 to $max-margin {
+    .mr-#{$i} {
+        margin-right: $i * 1px;
+    }
+
+    .pr-#{$i} {
+        padding-right: $i * 1px;
+    }
+}
+
+@for $i from 1 to $max-margin {
+    .mb-#{$i} {
+        margin-bottom: $i * 1px;
+    }
+
+    .pb-#{$i} {
+        padding-bottom: $i * 1px;
+    }
+}
+
+@for $i from 1 to $max-margin {
+    .ml-#{$i} {
+        margin-left: $i * 1px;
+    }
+
+    .pl-#{$i} {
+        padding-left: $i * 1px;
+    }
+}

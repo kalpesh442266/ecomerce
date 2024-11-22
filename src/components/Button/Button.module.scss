@@ -1,0 +1,46 @@
+@import "../../styles/variables";
+
+.button {
+    border: none;
+    outline: none;
+    border-radius: $border-radius-1;
+    cursor: pointer;
+}
+
+.primary {
+    &-outline {
+        background-color: transparent;
+        outline: 2px solid $primary-50;
+        color: $primary-50;
+
+        &:hover {
+            background-color: $primary-10;
+        }
+    }
+
+    &-content {
+        background-color: $primary-50;
+        color: $light;
+        outline: none;
+
+        &:hover {
+            background-color: $primary-100;
+            color: $light;
+        }
+    }
+
+    &-text {
+        background-color: transparent;
+        color: $primary-50;
+        outline: none;
+
+        &:hover {
+            background-color: $primary-10;
+        }
+    }
+
+}
+
+.fullWidth {
+    width: 100%;
+}

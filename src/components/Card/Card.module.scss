@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+@import "../../styles//utils";
+
+.card {
+    position: relative;
+    background-color: $light;
+
+    cursor: pointer;
+}
+
+.borderRadius{
+    border-radius: $border-radius-1;
+}
+
+
+//colors
+.color-primary-50 {
+    background-color: $primary-50;
+}
+
+.color-primary-100 {
+    background-color: $primary-100;
+}
+
+.color-danger {
+    background-color: $danger;
+}
+
+.color-success {
+    background-color: $success;
+}
+
+.color-light {
+    background-color: $light;
+}
+
+.color-grey-10 {
+    background-color: $grey-10;
+}
+
+.color-default {
+    background-color: black
+}

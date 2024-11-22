@@ -1,0 +1,8 @@
+@import "../../../styles/mixins";
+
+@for $i from 1 through 24 {
+    .col-#{$i} {
+        flex: 0 0 calc(($i / 24) * 100) * 1%;
+    }
+}   
+

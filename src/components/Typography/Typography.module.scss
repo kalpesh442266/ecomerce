@@ -1,0 +1,104 @@
+@import "../../styles/variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: medium;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+//font-sizes
+.size-small {
+    font-size: small;
+}
+
+.size-smaller {
+    font-size: smaller;
+}
+
+.size-medium {
+    font-size: medium;
+}
+
+.size-large {
+    font-size: large;
+}
+
+.size-larger {
+    font-size: larger
+}
+
+.size-x-large {
+    font-size: x-large;
+}
+
+.size-xx-large {
+    font-size: xx-large;
+}
+
+.size-x-small {
+    font-size: x-small;
+}
+
+// font-weights
+.weight-bold {
+    font-weight: bold;
+}
+
+.weight-bolder {
+    font-weight: bolder;
+}
+
+
+.weight-normal {
+    font-weight: normal;
+}
+
+.weight-lighter {
+    font-weight: lighter;
+}
+
+
+
+//colors
+.color-primary-50 {
+    color: $primary-50;
+}
+
+.color-primary-100 {
+    color: $primary-100;
+}
+
+.color-danger {
+    color: $danger;
+}
+
+.color-success {
+    color: $success;
+}
+
+.color-light {
+    color: $light;
+}
+
+.color-grey-10 {
+    color: $grey-10;
+}
+
+.color-default {
+    color: black
+}

@@ -1,0 +1,39 @@
+@import "../../../styles/variables";
+
+.stack {
+    display: flex;
+}
+
+.direction-row {
+    flex-direction: row;
+}
+
+.direction-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-top {
+    align-items: flex-start;
+}
+
+@each $gap in $spacings {
+    .spacing-#{$gap} {
+        column-gap: $gap * 1px;
+    }
+}

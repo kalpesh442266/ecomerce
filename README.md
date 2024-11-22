@@ -1,2 +1,7 @@
-# ecomerce
-A simple ecommerce website with all custom elements
+Install App
+
+```npm install```
+
+to run project
+
+```npm run dev```
